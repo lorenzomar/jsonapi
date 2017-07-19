@@ -1,0 +1,29 @@
+{
+    "name": "lorenzomar/jsonapi",
+    "description": "PSR-7 json api",
+    "keywords": [
+        "jsonapi",
+        "psr-7"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lorenzo Marzullo"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^1.0",
+        "zendframework/zend-diactoros": "^1.4"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "JsonApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JsonApi\\Tests\\": "tests/"
+        }
+    }
+}
